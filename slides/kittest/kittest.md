@@ -8,6 +8,7 @@ transition: slide-left
 mdc: true
 # take snapshot for each slide in the overview
 overviewSnapshots: true
+routerMode: hash
 
 image: https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTU2NzNqZG1kZmRsODRyYzRmbHQ2cTg3ZTl2Zmc0cWJ0aXRlZjUycyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ule4vhcY1xEKQ/giphy.webp
 

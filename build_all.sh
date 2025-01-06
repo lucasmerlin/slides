@@ -26,7 +26,7 @@ for dir in slides/*; do
 
     if [ -f "$md_file" ]; then
       # Run the build command for the matching .md file
-      bun run build "$md_file" --out "../../$output_dir/$base_name" --base "/slides/$base_name"
+      bunx slidev build "$md_file" --out "../../$output_dir/$base_name" --base "/slides/$base_name" --download --with-clicks
 
       # Add a link to the index.html
       echo "    <li><a href=\"$base_name/\">$base_name</a></li>" >> "$index_file"

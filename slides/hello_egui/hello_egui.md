@@ -8,6 +8,7 @@ transition: slide-left
 mdc: true
 # take snapshot for each slide in the overview
 overviewSnapshots: true
+routerMode: hash
 
 ---
 
